@@ -26,10 +26,6 @@ header {
     height: 80px;
 }
 
-header nav: {
-    height: 100%
-}
-
 .logo-container {
     display: inline-block;
     width: 15%;
@@ -39,9 +35,7 @@ header nav: {
 .lists-container {
     display: inline-block;
     width: 83%;
-    height: 100%;
     vertical-align: middle;
-
 }
 
 header nav li {
@@ -49,18 +43,28 @@ header nav li {
     display: inline-block;
     font-size: 10px;
     line-height: 80px;
-
 }
 
 header nav ul {
     display: inline-block;
-    height: 100%;
 }
 
-.header-section {
-    height: 100%;
+/* hero-section */
+.hero-section {
+    height: 450px;
 }
 
+.hero-left {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-text-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 /* user classes */
 
@@ -70,4 +74,8 @@ header nav ul {
 
 .bg-azzurro {
     background-color: rgb(24, 197, 228);
+}
+
+.bg-rosa {
+    background-color: rgb(240, 106, 233);
 }

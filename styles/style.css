@@ -20,10 +20,23 @@
     float: right;
 }
 
+nav a {
+    color: white;
+}
+
+.btn {
+    font-size: 10px;
+    border-radius: 5px;
+    background-color: #80bf00;
+    border-color: #80bf00;
+    border-style: unset;
+}
+
 /* nav */
 
 header {
     height: 80px;
+    background-color: #0c325a;
 }
 
 .logo-container {
@@ -43,10 +56,27 @@ header nav li {
     display: inline-block;
     font-size: 10px;
     line-height: 80px;
+    margin: 0 7px 0 7px;
 }
 
 header nav ul {
     display: inline-block;
+}
+
+nav a {
+    text-decoration: unset;
+}
+
+/* CONTROLLARE COME DISTRIBUIRE LE PRORIETà DI BTN!! */
+/* ok un po' sistemate */
+nav button:not(.login-btn) {
+    padding: 7px 10px 7px 10px;
+}
+
+.login-btn {
+    border: 1px solid white;
+    background-color: #0c325a;
+    padding: 7px 20px 7px 20px;
 }
 
 /* hero-section */

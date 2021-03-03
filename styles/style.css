@@ -66,6 +66,25 @@ header nav ul {
     transform: translateY(-50%);
 }
 
+/* first banner */
+.banner h3, .banner p {
+    text-align: center;
+}
+
+/* section 1 */
+
+.col-3 {
+    float: left;
+    width: 33.3333%;
+}
+
+/* section-2 */
+
+.col-2 {
+    float: left;
+    width: 50%;
+}
+
 /* user classes */
 
 .border {
@@ -79,3 +98,15 @@ header nav ul {
 .bg-rosa {
     background-color: rgb(240, 106, 233);
 }
+
+.col-3 {
+    height: 50px;
+}
+
+.col-2 {
+    height: 100px;
+}
+
+/* .section-1 {
+    height: 200px;
+} */

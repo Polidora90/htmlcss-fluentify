@@ -30,6 +30,7 @@ nav a {
     background-color: #80bf00;
     border-color: #80bf00;
     border-style: unset;
+    color: white;
 }
 
 /* nav */
@@ -82,6 +83,12 @@ nav button:not(.login-btn) {
 /* hero-section */
 .hero-section {
     height: 450px;
+    background-color: #0c325a;
+    background-image: url(../img/background-header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* padding: 250px 250px; */
 }
 
 .hero-left {
@@ -96,9 +103,23 @@ nav button:not(.login-btn) {
     transform: translateY(-50%);
 }
 
+.hero-text-btn h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.hero-text-btn button, footer button {
+    padding: 15px 25px 15px 25px;
+}
+
 /* first banner */
 .banner h3, .banner p {
     text-align: center;
+}
+
+.banner {
+    background-color: #d3d3d3;
+    padding: 40px 40px;
 }
 
 /* section 1 */
@@ -106,13 +127,49 @@ nav button:not(.login-btn) {
 .col-3 {
     float: left;
     width: 33.3333%;
+    padding: 20px;
 }
 
+.row {
+    margin: 0 -20px 0 -20px;
+}
+
+
+.img-container-section1 {
+    width: 50%;
+    margin:auto
+    
+}
+
+.section-1 h3, .section-1 p {
+    text-align: center;
+}
+
+.hr-container {
+    width: 25%;
+    margin:auto
+}
 /* section-2 */
 
 .col-2 {
     float: left;
     width: 50%;
+}
+
+.img-container-section2 {
+    width: 80%;
+    margin: auto;
+    padding: 30px 30px;
+}
+
+/* footer */
+
+footer {
+    background-color: #d3d3d3;
+}
+
+footer span {
+    display: inline-block;
 }
 
 /* user classes */
@@ -130,12 +187,12 @@ nav button:not(.login-btn) {
 }
 
 .col-3 {
-    height: 50px;
+    height: 400px;
 }
 
-.col-2 {
-    height: 100px;
-}
+/* .col-2 {
+    height: 400px;
+} */
 
 /* .section-1 {
     height: 200px;

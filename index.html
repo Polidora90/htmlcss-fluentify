@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <title>Fluentify</title>
 </head>
 <body>
 
-    <!-- non do stili al tag header e simili, faccio un sacco di div che tanto sono gratis -->
+   
     <header>
         <!-- header-section contiene il background che si estende 
         per tutta la larghezza della vw -->
@@ -40,13 +42,15 @@
 
     <main>
 
-        <!-- OK MA DEVO FARLO STARE IN PIEDI SENZA ALTEZZA! -->
+        <!-- hero section -->
         <article class="section hero-section">
             <div class="wrapper">
-                <div class="hero-left border"> <!-- gli do larghezza 50 e divido la section -->
-                    <div class="hero-text-btn"><!-- è il contenitore di testo e btn -->
+                <div class="hero-left">
+                    <div class="hero-text-btn">
                         <h1>Scegli l'inglese studiato per i professionisti</h1>
-                        <button class="btn">STRUTTURA UN PIANO</button>
+                        <div class="hero-btn-container">
+                            <button class="btn">STRUTTURA UN PIANO</button>
+                        </div>
                     </div>
                 </div>
             </div>

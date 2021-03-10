@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -82,34 +86,29 @@ nav button:not(.login-btn) {
 
 /* hero-section */
 .hero-section {
-    height: 450px;
     background-color: #0c325a;
     background-image: url(../img/background-header.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    /* padding: 250px 250px; */
 }
 
 .hero-left {
     width: 50%;
-    height: 100%;
-    position: relative;
-}
-
-.hero-text-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .hero-text-btn h1 {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
+    padding: 70px 0 40px 0;
 }
 
 .hero-text-btn button, footer button {
     padding: 15px 25px 15px 25px;
+}
+
+.hero-btn-container {
+    padding-bottom: 100px;
 }
 
 /* first banner */
